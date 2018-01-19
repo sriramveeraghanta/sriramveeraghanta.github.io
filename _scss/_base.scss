@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+
+html,body {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-text-size-adjust: 100%;
+    /* Font varient */
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    /* Smoothing */
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-transparent{
+	background-color: transparent !important;
+}
+
+.profile-pic-img{
+    border:3px solid #999;
+    border-radius: 5px;
+}
